@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    color: gray;
+}
+
+/* Traffic Lights */
+
+.section{
+    background-color:#9ec1cf;
+    border: 2px solid white;
+    margin: 10px;
+}
+
+.list{
+    background-color: black;
+    list-style-type: none;
+    border: 2px solid white;
+    height: 200px;
+    width:60px;
+    margin: 50px auto 0;
+    border-radius: 20px;
+}
+
+.circle{
+    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin:20px auto;
+}
+
+.pole{
+    background-color: black;
+    border: 2px solid white;
+    height:200px;
+    width:30px;
+    margin:0 auto;
+}
+
+li:nth-child(1){
+    background-color: #ff6663;
+}
+
+li:nth-child(2){
+    background-color: #fdfd97;
+}
+
+li:nth-child(3){
+    background-color: #9ee09e;
+}
+
+/* Steps */
+
+.steps{
+    list-style-type: none;
+}
+
+.steps li:nth-child(1){
+    background-color: #ff6663;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 20px 10px 20px 10px;
+}
+
+.steps li:nth-child(2){
+    background-color: #beeafa;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 20px 10px 20px 160px;
+}
+
+.steps li:nth-child(3){
+    background-color: #fdfd97;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 20px 10px 20px 310px;
+}
+
+.steps li:nth-child(4){
+    background-color: #9bf6ff;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 20px 10px 20px 460px;
+}
+
+.text-align{
+    text-align: center;
+    padding: 18px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+/* Concentric Circles */
+
+#color1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #cc99c9;
+    border: 1px solid black;
+    margin: 50px 30px 50px 50px;
+    /* margin: 10px auto; */
+}
+
+
+#color2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    margin: 50px 30px 50px 50px;
+    /* margin: 10px auto; */
+}
+
+#color3{
+    height: 300px;
+    width:300px;
+    border-radius: 50%;
+    background-color: #9ee09e;
+    border: 1px solid black;
+    margin: 50px 30px 50px 50px;
+    /* margin: 10px auto; */
+
+}
+
+#color4{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #fdfd97;
+    border: 1px solid black;
+    margin: 50px 30px 50px 50px;
+    /* margin: 10px auto; */
+}
+
+#color5{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: #feb144;
+    border: 1px solid black;
+    margin: 10px auto;
+}
